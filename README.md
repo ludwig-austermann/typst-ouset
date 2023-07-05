@@ -1,10 +1,10 @@
 # ouset Package
+This is a small package providing over- and underset functions for math mode in [typst](https://typst.app/).
+
+## Usage
 To use this package simply `#import "@preview/ouset:0.1.0"`. To import all functions use `: *` and for specific ones, use either the module or as described in the [typst docs](https://typst.app/docs/reference/scripting#modules).
 
 This package provides 3 functions:
-
-## Usage
-All relevant code sits inside `ouset.typ`. This package provides 3 functions:
 - `overset(s, t, c: 0)`: output the symbol s with t on top of it
 - `underset(s, b, c: 0)`: output the symbol s with b on below of it
 - `overunderset(s, t, b, c: 0)`: output the symbol s with t on top of it and b below it
